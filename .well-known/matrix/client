@@ -2,6 +2,14 @@
     "m.homeserver": {
         "base_url": "https://matrix.dont.chat"
     },
+    "m.integrations": {
+        "managers": [
+            {
+                "api_url": "https://integrations.dont.chat/api/v1/scalar",
+                "ui_url": "https://integrations.dont.chat/element"
+            }
+        ]
+    },
     "org.matrix.msc3575.proxy": {
         "url": "https://matrix.dont.chat/sliding-sync"
     }
